@@ -1,0 +1,180 @@
+*:after,
+*:before,
+* {
+  box-sizing: border-box; }
+
+a:focus, a:hover {
+  text-decoration: none; }
+
+.modal-slider {
+  text-align: center;
+  margin-bottom: 100px !important;
+  margin-top: 40px; }
+  .modal-slider .image-circle {
+    margin-left: auto;
+    margin-right: auto; }
+  .modal-slider.first {
+    margin-top: 0; }
+
+.slick-slide {
+  padding-left: 30px;
+  padding-right: 30px; }
+  .slick-slide:focus {
+    outline: none; }
+
+.slick-dots {
+  bottom: -100px; }
+  .slick-dots li {
+    margin: 0 10px 10px; }
+    .slick-dots li button:before {
+      content: "";
+      font-size: 0;
+      width: 16px;
+      height: 16px;
+      border: 1px solid #b0b0b0;
+      border-radius: 50%;
+      opacity: 1;
+      transition: background-color 0.2s linear; }
+    .slick-dots li.slick-active button:before {
+      background-color: #b0b0b0;
+      opacity: 1; }
+
+.slick-prev, .slick-next {
+  width: 65px;
+  height: 65px; }
+  .slick-prev:before, .slick-next:before {
+    content: "";
+    display: block;
+    width: 45px;
+    height: 45px;
+    transform: rotate(-45deg); }
+
+.slick-prev {
+  left: -35px; }
+  @media (max-width: 1276px) {
+    .slick-prev {
+      left: -30px; } }
+  .slick-prev:before {
+    border-top: 2px solid #b0b0b0;
+    border-left: 2px solid #b0b0b0; }
+
+.slick-next {
+  right: -45px; }
+  @media (max-width: 1276px) {
+    .slick-next {
+      right: -40px; } }
+  .slick-next:before {
+    border-bottom: 2px solid #b0b0b0;
+    border-right: 2px solid #b0b0b0; }
+
+.item-image-container {
+  max-width: 180px;
+  position: relative;
+  display: block;
+  width: auto;
+  height: auto;
+  margin: 0 auto 20px; }
+  .item-image-container img, .item-image-container .item-image {
+    display: block;
+    width: 100%;
+    border-radius: 100%;
+    background: #b0b0b0; }
+  .item-image-container div.item-image, .item-image-container span.item-image {
+    padding-bottom: 100%; }
+
+.item-details {
+  text-align: center; }
+
+.item-title {
+  display: block;
+  margin-bottom: 5px;
+  color: #15A9E1;
+  text-transform: uppercase;
+  transition: 0.2s linear; }
+
+.item-subtitle {
+  display: block;
+  margin-bottom: 10px;
+  color: #4a4a4a;
+  font-weight: 500; }
+
+.item-description {
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: center; }
+  .item-description p {
+    font-size: 16px; }
+
+.modal-list .item {
+  margin-bottom: 30px; }
+  @media (max-width: 480px) {
+    .modal-list .item {
+      width: 100%; } }
+  .modal-list .item a {
+    cursor: pointer; }
+    .modal-list .item a:hover .item-title {
+      color: #2eb8ec; }
+    .modal-list .item a:focus {
+      outline: none; }
+
+.modal {
+  z-index: 99999; }
+  .modal .item {
+    clear: both; }
+    .modal .item .item-details {
+      margin-bottom: 30px; }
+    .modal .item .item-title,
+    .modal .item .item-subtitle {
+      font-size: 18px; }
+  .modal .container {
+    position: relative;
+    width: 100%;
+    padding: 50px 0;
+    background: #fff; }
+  .modal .modal-dialog {
+    width: 100%;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto; }
+  .modal .modal-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+    z-index: 999; }
+    .modal .modal-close:before, .modal .modal-close:after {
+      position: absolute;
+      content: "";
+      top: 20px;
+      right: 0;
+      display: block;
+      width: 40px;
+      height: 2px;
+      background: #b0b0b0; }
+    .modal .modal-close:before {
+      transform: rotate(45deg); }
+    .modal .modal-close:after {
+      transform: rotate(135deg); }
+  .modal .slick-dots {
+    bottom: -40px;
+    display: none !important; }
+  .modal .slick-prev, .modal .slick-next {
+    display: block !important; }
+  .modal .slick-dotted.slick-slider {
+    margin-bottom: 0 !important; }
+  @media (max-width: 992px) {
+    .modal .slick-dots {
+      display: block !important; }
+    .modal .slick-prev, .modal .slick-next {
+      display: none !important; }
+    .modal .slick-dotted.slick-slider {
+      margin-bottom: 30px !important; } }
+
+.modal-backdrop {
+  z-index: 0; }
+
+/*# sourceMappingURL=main.css.map */
