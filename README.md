@@ -4,7 +4,7 @@ This plugin adds a modal with slider functionality. Each slide of the modal corr
 
 This can be used as a list of team members or categories, where you'd want to use a modal for more detailed descriptions.
 
-####Dependencies
+##Dependencies
 
 * jQuery
 * Bootstrap (3.3.7+) 
@@ -15,7 +15,7 @@ This can be used as a list of team members or categories, where you'd want to us
         * https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css
         * https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js
 
-####Getting started
+##Getting started
 
 1. Verify that the jQuery, Bootstrap, and Slick dependencies are included in the project.
 2. Include *modal-selector.js* in your js directory. Make sure it runs after the dependencies in your gulpfile.
